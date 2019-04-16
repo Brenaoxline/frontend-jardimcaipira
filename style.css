@@ -1,7 +1,7 @@
 body, html {
     width: 100%;
     height: 100%;
-    font-family: Montserrat, sans-serif;
+    font-family: sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -20,7 +20,7 @@ body, html {
 }
 
 .bgcolor2 {
-    background-color: rgb(165, 17, 116)
+    background-color: rgb(180, 23, 128)
 }
 
 .bgcolor3 {
@@ -56,7 +56,7 @@ body, html {
 
 .betterfont{ 
     font-family: "brannbollfet", Arial, Helvetica, sans-serif;
-    color: #90540f;
+    color: #c57416;
     text-shadow: 1px 1px 1px #111111
 }
 
