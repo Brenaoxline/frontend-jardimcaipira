@@ -3,6 +3,7 @@ body, html {
     height: 100%;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    position: relative;
 }
 
 .blacklink {
@@ -12,8 +13,8 @@ body, html {
 .bgimage{
     background-image: url(images/background.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 7000px;
-}   
+    background-size: 100% 3000px;
+}  
 
 .bgcolor1 {
     background-color: rgba(224, 141, 121, 0.555)
@@ -33,7 +34,6 @@ body, html {
 
 .lowfooter {
     padding-top: 20px;
-    padding-bottom: 5px;
 }
 
 .getoffmedude {
@@ -42,8 +42,8 @@ body, html {
 }
 
 .getoffmedudebelow {
-    margin-top: 73px;
-    margin-bottom: 73px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .text-center {
@@ -57,7 +57,7 @@ body, html {
 .betterfont{ 
     font-family: "brannbollfet", Arial, Helvetica, sans-serif;
     color: #c57416;
-    text-shadow: 1px 1px 1px #111111
+    text-shadow: 2px 2px 2px #111111
 }
 
 @font-face {
@@ -68,14 +68,6 @@ body, html {
 .paragraph {
     text-indent: 50px;
     text-align: justify;
-}
-
-.navbartextcolor {
-    color: rgb(255, 255, 255) !important;
-}
-
-.navbartextcolor:hover {
-    color: rgb(226, 191, 115) !important;
 }
 
 .map-responsive {
@@ -93,7 +85,7 @@ body, html {
 }
 
 .belownavbar {
-    margin-top: 73px;
+    margin-top: 64px;
 }
 
 .thumbnail {
