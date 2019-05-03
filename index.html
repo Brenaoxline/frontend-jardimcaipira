@@ -16,21 +16,21 @@
     <meta name="description" content="Encontre vasos, plantas ornamentais e artigos de madeira artesanal. Marcenaria com orquídeas, rosas do deserto, cactos, suculentas e mais!">
     <meta name="author" content="Jardim Caipira">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link href="fontawesome-free-5.8.1-web/css/fontawesome.min.css" rel="stylesheet">
-    <link href="fontawesome-free-5.8.1-web/css/brands.min.css" rel="stylesheet">
+    <link href="styles/fontawesome-free-5.8.1-web/css/fontawesome.min.css" rel="stylesheet">
+    <link href="styles/fontawesome-free-5.8.1-web/css/brands.min.css" rel="stylesheet">
 </head>
 
 <!-- ADIÇÃO DO SCROLLSPY -->
-<body class="bgimage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="bgImage" data-spy="scroll" data-target=".navbar" data-offset="50">
     
     <!-- CRIAÇÃO DO NAVBAR -->
-    <nav class="navbar navbar-expand-sm fixed-top bgcolor2 navbar-dark"> 
+    <nav class="navbar navbar-expand-sm fixed-top bgColor2 navbar-dark"> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand text-center" href="#">
+        <a class="navbar-brand textToCenter" href="#">
             <img src="images/jardimcaipiralogo2.png" width="40%">
             </a>
         <div class="collapse navbar-collapse" id="navbarcollapse">
@@ -51,12 +51,12 @@
                     <a class="nav-link" href="#informações">Informações:</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/jardim.caipira/" target="_blank" class="blacklink">
+                    <a class="nav-link" href="https://www.instagram.com/jardim.caipira/" target="_blank" class="blackLink">
                         <span class="fab fa-instagram"></span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.facebook.com/jardimcaipira/" target="_blank" class="blacklink">
+                    <a class="nav-link" href="https://www.facebook.com/jardimcaipira/" target="_blank" class="blackLink">
                         <span class="fab fa-facebook-square"></span>
                     </a> 
                 </li>
@@ -70,7 +70,7 @@
     </nav>
 
     <!-- CRIAÇÃO DO CARROSSEL -->
-    <div id="carouselphotos" class="d-none d-md-block carousel slide belownavbar" data-ride="carousel">
+    <div id="carouselphotos" class="d-none d-md-block carousel slide fixBelowNavbar" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#carouselphotos" data-slide-to="0" class="active"></li>
             <li data-target="#carouselphotos" data-slide-to="1"></li>
@@ -95,15 +95,15 @@
     </div>
     
     <!-- CRIAÇÃO DA PARTE TEXTUAL -->
-    <div class="container belownavbar shadow-lg p-3 mb-5 bgcolor1 rounded">
+    <div class="container fixBelowNavbar shadow-lg p-3 mb-5 bgColor1 rounded">
         <div id="conheça" class="container">
             <div>
-                <h1 class="text-center betterfont getoffmedude"><b>Bem-vindo ao Jardim Caipira!</b></h1>
+                <h1 class="textToCenter niceFont giveSpace"><b>Bem-vindo ao Jardim Caipira!</b></h1>
                 <h4 class="paragraph">Nossa loja possui um grande acervo de plantas ornamentais, vasos e trabalhos de marcenaria. Além disso, o preço é tão camarada quanto os preços dos maiores fornecedores do Brasil! Venha conhecer nossa loja para embelezar sua casa ou comércio!</h4>
-                <div class="row getoffmedude">
+                <div class="row giveSpace">
                     <div class="col-sm-6">
-                        <h3><b><div class="text-center">Plantas ornamentais:</div></b><br>
-                            <ul class="right_text">
+                        <h3><b><div class="textToCenter">Plantas ornamentais:</div></b><br>
+                            <ul class="textToRight">
                                 <li>Orquídeas</li>
                                 <li>Rosas do deserto</li>
                                 <li>Cactos</li>
@@ -111,8 +111,8 @@
                             </ul></h4>
                     </div>
                     <div class="col-sm-6">
-                        <h3><b><div class="text-center">Decoração:</div></b><br>
-                            <ul class="right_text">
+                        <h3><b><div class="textToCenter">Decoração:</div></b><br>
+                            <ul class="textToRight">
                                 <li>Vasos diversos</li>
                                 <li>Mesas de madeira</li>
                                 <li>Trabalho de marcenaria</li>
@@ -126,9 +126,9 @@
     </div>
     
     <!-- CRIAÇÃO DOS PRODUTOS -->
-    <div id="produtos" class="container text-center getoffmedudebelow shadow-lg p-3 mb-5 bgcolor3 rounded">
-        <h1 class="betterfont getoffmedude"><b>Produtos</b></h1>
-        <h2 class="getoffmedude">Aprecie alguns dos nossos produtos de decoração:</h2>
+    <div id="produtos" class="container textToCenter giveMoreSpace shadow-lg p-3 mb-5 bgColor3 rounded">
+        <h1 class="niceFont giveSpace"><b>Produtos</b></h1>
+        <h2 class="giveSpace">Aprecie alguns dos nossos produtos de decoração:</h2>
         <div class="row">
             <div class="col-sm-4">
                 <div class="thumbnail">
@@ -176,9 +176,9 @@
     </div>
     
     <!-- CRIAÇÃO DA PARTE DOS VÍDEOS -->
-    <div id="videos" class="container text-center getoffmedudebelow shadow-lg p-3 mb-5 bgcolor1 rounded">
-        <h1 class="betterfont getoffmedude"><b>Vídeos:</b></h1>
-        <h2 class="getoffmedude">Aprenda como cuidar e podar suas rosas do deserto em vaso: </h2>
+    <div id="videos" class="container textToCenter giveMoreSpace shadow-lg p-3 mb-5 bgColor1 rounded">
+        <h1 class="niceFont giveSpace"><b>Vídeos:</b></h1>
+        <h2 class="giveSpace">Aprenda como cuidar e podar suas rosas do deserto em vaso: </h2>
         <div class="row">
                 <div class="col-sm-6">
                     <div class="embed-responsive embed-responsive-16by9 thumbnail">
@@ -194,27 +194,27 @@
     </div>
 
     <!-- CRIAÇÃO DO FOOTER -->
-    <footer id="informações" class="container-fluid bgcolor4 lowfooter">
+    <footer id="informações" class="container-fluid bgColor4">
         <div class="row">
-            <div class="col-sm-3 text-center">
+            <div class="col-sm-3 textToCenter">
                 <h4>Contatos:</h4>
-                <a href="https://www.instagram.com/jardim.caipira/" target="_blank" class="blacklink">
+                <a href="https://www.instagram.com/jardim.caipira/" target="_blank" class="blackLink">
                     <span class="fab fa-instagram"></span>
                     Nosso Instagram</a><br>
-                <a href="https://www.facebook.com/jardimcaipira/" target="_blank" class="blacklink">
+                <a href="https://www.facebook.com/jardimcaipira/" target="_blank" class="blackLink">
                     <span class="fab fa-facebook-square"></span>
                     Nosso Facebook</a><br>
                     <p><span class="fab fa-whatsapp"></span>
                     Whatsapp: (85) 988709845</p>   
             </div>
-            <div class="col-sm-3 text-center">
+            <div class="col-sm-3 textToCenter">
                 <h4>Horário de funcionamento:</h4>
                 <p>Segunda: Fechado <br>
                 Terça a Sexta: 7h a 11h <br>
                 Sábado e Domingo: 7h a 13h <br>
                 </p>
             </div>
-            <div class="col-sm-3 text-center">
+            <div class="col-sm-3 textToCenter">
                 <h4>Endereço:</h4>
                 <address>
                     Rua Um, 307 - Jardim Cearense<br>
@@ -223,7 +223,7 @@
                 </address>
             </div>
             <div class="col-sm-3">
-                <div class="map-responsive thumbnail">
+                <div class="mapResponsive thumbnail">
                     <iframe data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63696.52623056006!2d-38.564381!3d-3.802965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x219909ae318f6f47!2sJardim+Caipira!5e0!3m2!1sen!2sus!4v1550770747989" 
                     class="lazyload" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>

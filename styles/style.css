@@ -1,0 +1,104 @@
+@charset "UTF-8";
+.mapResponsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.mapResponsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#bgImage {
+  background-image: url(../images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 6000px;
+}
+
+.bgColor1 {
+  background-color: rgba(233, 133, 108, 0.555);
+}
+
+.bgColor2 {
+  background-color: #b41780;
+}
+
+.bgColor3 {
+  background-color: rgba(241, 212, 175, 0.658);
+}
+
+.bgColor4 {
+  background-color: rgba(14, 174, 179, 0.596);
+}
+
+.niceFont {
+  font-family: "brannbollfet", Arial, Helvetica, sans-serif;
+  color: #c57416;
+  text-shadow: 2px 2px 2px #111111;
+}
+
+@font-face {
+  font-family: brannbollfet;
+  src: url(../fonts/Brannboll_Fet/BrannbollFet.woff);
+}
+
+.thumbnail {
+  border: double;
+  margin-bottom: 30px;
+  background-color: rgba(204, 122, 204, 0.65);
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.giveSpace {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.giveMoreSpace {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.fixBelowNavbar {
+  margin-top: 64px;
+}
+
+.textToRight {
+  padding-left: 60px;
+}
+
+.textToCenter {
+  text-align: center;
+}
+
+.paragraph {
+  text-indent: 50px;
+  text-align: justify;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+#informações {
+  padding-top: 20px;
+}
+
+.blackLink {
+  color: #242424;
+}
+/*# sourceMappingURL=style.css.map */

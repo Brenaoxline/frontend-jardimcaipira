@@ -1,0 +1,22 @@
+@import '_map.scss';
+@import '_background.scss';
+@import '_font.scss';
+@import '_thumbnail.scss';
+@import '_position.scss';
+@import '_text.scss';
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+#informações {
+    padding-top: 20px;
+}
+
+.blackLink {
+    color: rgb(36, 36, 36);
+}
